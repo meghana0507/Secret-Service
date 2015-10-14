@@ -1,0 +1,188 @@
+"C:\Program Files\Java\jdk1.8.0_45\bin\java" -ea -Didea.launcher.port=7535 "-Didea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\bin" -Dfile.encoding=windows-1252 -classpath "C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\idea_rt.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.4\plugins\junit\lib\junit-rt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\zipfs.jar;C:\Users\Meghana\Downloads\Lab1\Lab1\target\classes;C:\Users\Meghana\Downloads\junit-4.10.jar;C:\Users\Meghana\Downloads\aspectjrt-1.6.11.jar;C:\Users\Meghana\Downloads\aspectjweaver-1.6.11.jar;C:\Users\Meghana\.m2\repository\org\springframework\spring-context\4.1.1.RELEASE\spring-context-4.1.1.RELEASE.jar;C:\Users\Meghana\.m2\repository\org\springframework\spring-beans\4.1.1.RELEASE\spring-beans-4.1.1.RELEASE.jar;C:\Users\Meghana\.m2\repository\org\springframework\spring-core\4.1.1.RELEASE\spring-core-4.1.1.RELEASE.jar;C:\Users\Meghana\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\Meghana\.m2\repository\org\springframework\spring-expression\4.1.1.RELEASE\spring-expression-4.1.1.RELEASE.jar;C:\Users\Meghana\.m2\repository\org\springframework\spring-context-support\4.1.1.RELEASE\spring-context-support-4.1.1.RELEASE.jar;C:\Users\Meghana\.m2\repository\org\springframework\spring-aop\4.1.1.RELEASE\spring-aop-4.1.1.RELEASE.jar;C:\Users\Meghana\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Meghana\.m2\repository\org\aspectj\aspectjrt\1.6.11\aspectjrt-1.6.11.jar;C:\Users\Meghana\.m2\repository\org\aspectj\aspectjweaver\1.6.11\aspectjweaver-1.6.11.jar" com.intellij.rt.execution.application.AppMain com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 edu.sjsu.cmpe275.lab1.SecretServiceTest
+Oct 06, 2015 11:57:11 PM org.springframework.context.support.FileSystemXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@ed17bee: startup date [Tue Oct 06 23:57:11 PDT 2015]; root of context hierarchy
+Oct 06, 2015 11:57:12 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from URL [file:src/main/resources/beans.xml]
+testF
+Oct 06, 2015 11:57:17 PM edu.sjsu.cmpe275.lab1.LoggingAspect logAfterStore
+INFO: Alice creates a secret with ID d3e517a5-60c8-4556-baef-e8b4ddbd4f56
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Oct 06, 2015 11:57:17 PM edu.sjsu.cmpe275.lab1.LoggingAspect logBeforeShare
+INFO: Alice shares the secret of ID d3e517a5-60c8-4556-baef-e8b4ddbd4f56 with Bob
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Oct 06, 2015 11:57:17 PM edu.sjsu.cmpe275.lab1.LoggingAspect logBeforeShare
+INFO: Alice shares the secret of ID d3e517a5-60c8-4556-baef-e8b4ddbd4f56 with Carl
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Oct 06, 2015 11:57:17 PM edu.sjsu.cmpe275.lab1.LoggingAspect logBeforeShare
+INFO: Carl shares the secret of ID d3e517a5-60c8-4556-baef-e8b4ddbd4f56 with Bob
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Oct 06, 2015 11:57:17 PM edu.sjsu.cmpe275.lab1.LoggingAspect logBeforeUnshare
+INFO: Alice unshares the secret of ID d3e517a5-60c8-4556-baef-e8b4ddbd4f56 with Bob
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Unauthorized Exception: The person is trying to access the secret he neither owns nor shared with!
+Oct 06, 2015 11:57:17 PM edu.sjsu.cmpe275.lab1.LoggingAspect logBeforeRead
+INFO: Bob reads the secret of ID d3e517a5-60c8-4556-baef-e8b4ddbd4f56
+Oct 06, 2015 11:57:17 PM org.springframework.context.support.FileSystemXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@11fc564b: startup date [Tue Oct 06 23:57:17 PDT 2015]; root of context hierarchy
+Oct 06, 2015 11:57:17 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from URL [file:src/main/resources/beans.xml]
+testJ
+Oct 06, 2015 11:57:18 PM edu.sjsu.cmpe275.lab1.LoggingAspect logAfterStore
+INFO: Alice creates a secret with ID b6aa8232-5a47-4a01-a99a-77371b24bce0
+Oct 06, 2015 11:57:18 PM edu.sjsu.cmpe275.lab1.LoggingAspect logAfterStore
+INFO: Alice creates a secret with ID 659b0436-ed90-49ab-b81f-3085912f6977
+Oct 06, 2015 11:57:18 PM org.springframework.context.support.FileSystemXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@2525ff7e: startup date [Tue Oct 06 23:57:18 PDT 2015]; root of context hierarchy
+Oct 06, 2015 11:57:18 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from URL [file:src/main/resources/beans.xml]
+testA
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Oct 06, 2015 11:57:19 PM edu.sjsu.cmpe275.lab1.LoggingAspect logAfterStore
+INFO: Alice creates a secret with ID 0f637aaf-2ae6-442a-b752-b09f54145569
+Oct 06, 2015 11:57:19 PM edu.sjsu.cmpe275.lab1.LoggingAspect logBeforeRead
+INFO: Bob reads the secret of ID 0f637aaf-2ae6-442a-b752-b09f54145569
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Unauthorized Exception: The person is trying to access the secret he neither owns nor shared with!
+Oct 06, 2015 11:57:19 PM org.springframework.context.support.FileSystemXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@11bd0f3b: startup date [Tue Oct 06 23:57:19 PDT 2015]; root of context hierarchy
+Oct 06, 2015 11:57:19 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from URL [file:src/main/resources/beans.xml]
+testB
+Oct 06, 2015 11:57:19 PM edu.sjsu.cmpe275.lab1.LoggingAspect logAfterStore
+INFO: Alice creates a secret with ID 2cccd87f-d8a7-4297-8f53-3ddccafb347e
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+org.apacheOct 06, 2015 11:57:19 PM edu.sjsu.cmpe275.lab1.LoggingAspect logBeforeShare
+INFO: Alice shares the secret of ID 2cccd87f-d8a7-4297-8f53-3ddccafb347e with Bob
+.commons.logging.impl.Jdk14Logger@17a7f733
+Oct 06, 2015 11:57:19 PM edu.sjsu.cmpe275.lab1.LoggingAspect logBeforeRead
+INFO: Bob reads the secret of ID 2cccd87f-d8a7-4297-8f53-3ddccafb347e
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Oct 06, 2015 11:57:20 PM org.springframework.context.support.FileSystemXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@15aab8c6: startup date [Tue Oct 06 23:57:20 PDT 2015]; root of context hierarchy
+Oct 06, 2015 11:57:20 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from URL [file:src/main/resources/beans.xml]
+testC
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Oct 06, 2015 11:57:20 PM edu.sjsu.cmpe275.lab1.LoggingAspect logAfterStore
+INFO: Alice creates a secret with ID c8668514-67df-4998-8d2d-827f0e6c3577
+Oct 06, 2015 11:57:20 PM edu.sjsu.cmpe275.lab1.LoggingAspect logBeforeShare
+INFO: Alice shares the secret of ID c8668514-67df-4998-8d2d-827f0e6c3577 with Bob
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Oct 06, 2015 11:57:20 PM edu.sjsu.cmpe275.lab1.LoggingAspect logBeforeShare
+INFO: Bob shares the secret of ID c8668514-67df-4998-8d2d-827f0e6c3577 with Carl
+Oct 06, 2015 11:57:20 PM edu.sjsu.cmpe275.lab1.LoggingAspect logBeforeRead
+INFO: Carl reads the secret of ID c8668514-67df-4998-8d2d-827f0e6c3577
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Oct 06, 2015 11:57:20 PM org.springframework.context.support.FileSystemXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@4229bb3f: startup date [Tue Oct 06 23:57:20 PDT 2015]; root of context hierarchy
+Oct 06, 2015 11:57:20 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from URL [file:src/main/resources/beans.xml]
+testD
+Oct 06, 2015 11:57:20 PM edu.sjsu.cmpe275.lab1.LoggingAspect logAfterStore
+INFO: Alice creates a secret with ID 273d71aa-e694-4095-9c85-b8a5b6d2f946
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Oct 06, 2015 11:57:20 PM edu.sjsu.cmpe275.lab1.LoggingAspect logAfterStore
+INFO: Carl creates a secret with ID 5e696236-5e33-4994-a9c7-9e28473eb46e
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Oct 06, 2015 11:57:20 PM edu.sjsu.cmpe275.lab1.LoggingAspect logBeforeShare
+INFO: Alice shares the secret of ID 273d71aa-e694-4095-9c85-b8a5b6d2f946 with Bob
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Oct 06, 2015 11:57:20 PM edu.sjsu.cmpe275.lab1.LoggingAspect logBeforeShare
+INFO: Bob shares the secret of ID 5e696236-5e33-4994-a9c7-9e28473eb46e with Alice
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Unauthorized Exception: The person is trying to access the secret he neither owns nor shared with!
+Oct 06, 2015 11:57:20 PM org.springframework.context.support.FileSystemXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@194bcebf: startup date [Tue Oct 06 23:57:20 PDT 2015]; root of context hierarchy
+Oct 06, 2015 11:57:20 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from URL [file:src/main/resources/beans.xml]
+testH
+Oct 06, 2015 11:57:21 PM edu.sjsu.cmpe275.lab1.LoggingAspect logAfterStore
+INFO: Alice creates a secret with ID 311c2b50-f9c2-4203-96e8-92b7d897d499
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Oct 06, 2015 11:57:21 PM edu.sjsu.cmpe275.lab1.LoggingAspect logBeforeShare
+INFO: Alice shares the secret of ID 311c2b50-f9c2-4203-96e8-92b7d897d499 with Bob
+Oct 06, 2015 11:57:21 PM edu.sjsu.cmpe275.lab1.LoggingAspect logBeforeUnshare
+INFO: Carl unshares the secret of ID 311c2b50-f9c2-4203-96e8-92b7d897d499 with Bob
+Oct 06, 2015 11:57:21 PM org.springframework.context.support.FileSystemXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@2d52216b: startup datorg.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Unauthorized Exception: The person is trying to access the secret he neither owns nor shared with!
+e [Tue Oct 06 23:57:21 PDT 2015]; root of context hierarchy
+Oct 06, 2015 11:57:21 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from URL [file:src/main/resources/beans.xml]
+testI
+Oct 06, 2015 11:57:22 PM edu.sjsu.cmpe275.lab1.LoggingAspect logAfterStore
+INFO: Alice creates a secret with ID cec9d0ee-0de4-49a4-831b-1a6459acd54f
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Oct 06, 2015 11:57:22 PM edu.sjsu.cmpe275.lab1.LoggingAspect logBeforeShare
+INFO: Alice shares the secret of ID cec9d0ee-0de4-49a4-831b-1a6459acd54f with Bob
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Oct 06, 2015 11:57:22 PM edu.sjsu.cmpe275.lab1.LoggingAspect logBeforeShare
+INFO: Bob shares the secret of ID cec9d0ee-0de4-49a4-831b-1a6459acd54f with Carl
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Oct 06, 2015 11:57:22 PM edu.sjsu.cmpe275.lab1.LoggingAspect logBeforeUnshare
+INFO: Alice unshares the secret of ID cec9d0ee-0de4-49a4-831b-1a6459acd54f with Bob
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Oct 06, 2015 11:57:22 PM edu.sjsu.cmpe275.lab1.LoggingAspect logBeforeShare
+INFO: Bob shares the secret of ID cec9d0ee-0de4-49a4-831b-1a6459acd54f with Carl
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Unauthorized Exception: The person is trying to access the secret he neither owns nor shared with!
+Oct 06, 2015 11:57:22 PM org.springframework.context.support.FileSystemXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@f0c8a99: startup date [Tue Oct 06 23:57:22 PDT 2015]; root of context hierarchy
+Oct 06, 2015 11:57:22 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from URL [file:src/main/resources/beans.xml]
+testG
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Oct 06, 2015 11:57:23 PM edu.sjsu.cmpe275.lab1.LoggingAspect logAfterStore
+INFO: Alice creates a secret with ID 41422698-a83a-4fa4-bb60-33abb0ffc828
+Oct 06, 2015 11:57:23 PM edu.sjsu.cmpe275.lab1.LoggingAspect logBeforeShare
+INFO: Alice shares the secret of ID 41422698-a83a-4fa4-bb60-33abb0ffc828 with Bob
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Oct 06, 2015 11:57:23 PM edu.sjsu.cmpe275.lab1.LoggingAspect logBeforeShare
+INFO: Bob shares the secret of ID 41422698-a83a-4fa4-bb60-33abb0ffc828 with Carl
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Oct 06, 2015 11:57:23 PM edu.sjsu.cmpe275.lab1.LoggingAspect logBeforeUnshare
+INFO: Bob unshares the secret of ID 41422698-a83a-4fa4-bb60-33abb0ffc828 with Carl
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Oct 06, 2015 11:57:23 PM org.springframework.context.support.FileSystemXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@742ff096: startup date [Tue Oct 06 23:57:23 PDT 2015]; root of context hierarchy
+Oct 06, 2015 11:57:23 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from URL [file:src/main/resources/beans.xml]
+testE
+org.apache.commons.logging.Oct 06, 2015 11:57:23 PM edu.sjsu.cmpe275.lab1.LoggingAspect logAfterStore
+INFO: Alice creates a secret with ID 77610487-e6db-4ba2-b02a-84113d7a46fe
+impl.Jdk14Logger@17a7f733
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Oct 06, 2015 11:57:23 PM edu.sjsu.cmpe275.lab1.LoggingAspect logBeforeShare
+INFO: Alice shares the secret of ID 77610487-e6db-4ba2-b02a-84113d7a46fe with Bob
+Oct 06, 2015 11:57:23 PM edu.sorg.apache.commons.logging.impl.Jdk14Logger@17a7f733
+jsu.cmpe275.lab1.LoggingAspect logBeforeShare
+INFO: Bob shares the secret of ID 77610487-e6db-4ba2-b02a-84113d7a46fe with Carl
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Oct 06, 2015 11:57:23 PM edu.sjsu.cmpe275.lab1.LoggingAspect logBeforeUnshare
+INFO: Alice unshares the secret of ID 77610487-e6db-4ba2-b02a-84113d7a46fe with Carl
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Oct 06, 2015 11:57:23 PM edu.sjsu.cmpe275.lab1.LoggingAspect logBeforeRead
+INFO: Carl reads the secret of ID 41422698-a83a-4fa4-bb60-33abb0ffc828
+org.apache.commons.logging.impl.Jdk14Logger@17a7f733
+Unauthorized Exception: The person is trying to access the secret he neither owns nor shared with!
+Oct 06, 2015 11:57:23 PM edu.sjsu.cmpe275.lab1.LoggingAspect logBeforeRead
+INFO: Carl reads the secret of ID 77610487-e6db-4ba2-b02a-84113d7a46fe
+
+Process finished with exit code 0
+
+TEST RESULTS:
+Test A: Pass
+Test B: Pass
+Test C: Pass
+Test D: Pass
+Test E: Pass
+Test F: Pass
+Test G: Pass
+Test H: Pass
+Test I: Pass
+Test J: Pass
